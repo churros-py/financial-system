@@ -1,3 +1,4 @@
 [submodule "user-microservice"]
 	path = user-microservice
 	url = git@github.com:churros-py/user-microservice.git
+	branch = master
