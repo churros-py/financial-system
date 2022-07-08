@@ -1,31 +1,31 @@
 # Financial System
 
-## Controle de Finanças Pessoais && Controle de Investimentos
+## Personal Finance Control && Investment Control
 
 ### Use Cases
-- Upload e Download de planilha de gastos
-- Adição de gastos e suas categorias
-- Predição de Gastos por categoria
-- Vinculação de gastos com outra pessoa ou grupo de pessoas (cônjuge ou família completa)
-- Adição de Portfólio de ações
-- Relatório de notícias (decidir qual fonte de notícias integrar) a respeito das ações do portfólio
-- Predição de valores das ações do portfólio (decidir quantas predições disponíveis e qual tempo de predição - 1, 7 ou 30 dias, meses ou anos)
-- Cálcular imposto de renda com base nas entradas e saídas
-- Auditoria de Transações Internas com Blockchain
-- União de Investimentos (blockchain, ações, poupança)
-- Estimativa de Depreciação do dinheiro caso não haja investimento
+- Upload and Download expense spreadsheet
+- Adding expenses and their categories
+- Expense prediction by category
+- Group spending with another person or group of people (spouse or full family)
+- Adding Stock Portfolio
+- News report (pendent: decide which news source to integrate) about stocks in the portfolio
+- Portfolio stock value prediction (decide how many predictions available and what prediction time - 1, 7 or 30 days, months or years)
+- Calculate income tax based on inputs and outputs
+- Audit of Internal Transactions with Blockchain
+- Investment Union (blockchain, stocks, savings)
+- Estimate of Depreciation of the money if there is no investment
 
-### Possíveis tecnologias usadas
-- Login unificado com KeyCloak
-- Machine Learning com Python
-- Golang e Blockchain
-- Containerização com Docker e Docker Compose
+### Possible technologies used
+- Unified login with KeyCloak
+- Machine Learning with Python
+- Golang and Blockchain
+- Containerization with Docker and Docker Compose
 - GraphQL
-- Apollo Federation (possível)
+- Apollo Federation (possible)
 - MongoDB
 - NestJS
 - Kafka
 
 
-### Padrões a utilizar
+### Patterns to use
 - Microservice: Saga
